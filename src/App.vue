@@ -41,10 +41,10 @@ button:hover {
 }
 
 .reset-btn {
-  background-color: #ef4444;
+  background-color: #6b7280;
 }
 
 .reset-btn:hover {
-  background-color: #dc2626;
+  background-color: #4b5563;
 }
 </style>
