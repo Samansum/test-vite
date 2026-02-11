@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Stock Management App - Main Component
+import ProductList from './components/ProductList.vue'
 </script>
 
 <template>
@@ -8,10 +8,7 @@
       <h1>Stock Management System</h1>
     </header>
     <main class="app-main">
-      <div class="welcome-message">
-        <h2>Welcome to Stock Management</h2>
-        <p>Manage your inventory efficiently</p>
-      </div>
+      <ProductList />
     </main>
   </div>
 </template>
